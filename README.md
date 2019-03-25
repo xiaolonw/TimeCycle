@@ -50,6 +50,7 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
 </p>
 
 Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The testing results for this model is:
+
 | J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
