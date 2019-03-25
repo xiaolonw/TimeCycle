@@ -32,8 +32,6 @@ Then run the following code:
     python train_video_cycle_simple.py --checkpoint pytorch_checkpoints/release_model_simple
 ```
 
-Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0).
-
 ## Testing
 Replace the input list in test_davis.py in the home folder as:
 ```Shell
@@ -44,13 +42,17 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
     sh run_test.sh
 ```
 
-## Result Examples
+## Results
 <p float="left">
   <img src="figures/1.gif" width="33%" />
   <img src="figures/2.gif" width="33%" />
   <img src="figures/3.gif" width="33%" />
 </p>
 
+Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The testing results for this model is:
+| J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
 
 
 ## Acknowledgements
