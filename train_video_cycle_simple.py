@@ -241,7 +241,6 @@ def main():
                 }, checkpoint=args.checkpoint)
 
     logger.close()
-    savefig(os.path.join(args.checkpoint, 'log.eps'))
 
 
 def set_bn_eval(m):
