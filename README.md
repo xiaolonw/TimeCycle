@@ -42,7 +42,7 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
     sh run_test.sh
 ```
 
-## Results
+## Model and Result
 <p float="left">
   <img src="figures/1.gif" width="33%" />
   <img src="figures/2.gif" width="33%" />
