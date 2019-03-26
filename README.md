@@ -18,6 +18,21 @@ If you use our code in your research or wish to refer to the baseline results, p
 }
 ```
 
+## Model and Result
+<p float="left">
+  <img src="figures/1.gif" width="33%" />
+  <img src="figures/2.gif" width="33%" />
+  <img src="figures/3.gif" width="33%" />
+</p>
+
+Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The testing results for this model is:
+
+| J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
+
+The training and testing procedures for this model are described as follows.
+
 ## Dataset Preparation
 
 Please read [`DATASET.md`](DATASET.md) for downloading and preparing the VLOG dataset for training and DAVIS dataset for testing.
@@ -41,19 +56,6 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
 ```Shell
     sh run_test.sh
 ```
-
-## Model and Result
-<p float="left">
-  <img src="figures/1.gif" width="33%" />
-  <img src="figures/2.gif" width="33%" />
-  <img src="figures/3.gif" width="33%" />
-</p>
-
-Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The testing results for this model is:
-
-| J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
 
 
 ## Acknowledgements
