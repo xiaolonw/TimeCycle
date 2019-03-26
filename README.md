@@ -25,7 +25,7 @@ If you use our code in your research or wish to refer to the baseline results, p
   <img src="figures/3.gif" width="33%" />
 </p>
 
-Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The testing results for this model is:
+Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The tracking performance on DAVIS-2017 for this model (without training on DAVIS-2017) is:
 
 | J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
