@@ -57,4 +57,9 @@ Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62
 
 
 ## Acknowledgements
-The `geotnf` code was modified from [WeakAlign](https://github.com/ignacio-rocco/weakalign).
+
+[weakalign](https://github.com/ignacio-rocco/weakalign) by Ignacio Rocco, Relja Arandjelović and Josef Sivic.
+
+[inflated_convnets_pytorch](https://github.com/hassony2/inflated_convnets_pytorch) by Yana Hasson.
+
+[pytorch-classification](https://github.com/bearpaw/pytorch-classification) by Wei Yang.
