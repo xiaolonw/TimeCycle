@@ -1,6 +1,6 @@
 # TimeCycle
 
-Code for [Learning Correspondence from the Cycle-consistency of Time (CVPR 2019, Oral)](https://arxiv.org/abs/1903.07593). The code is developed based on the [PyTorch](https://pytorch.org/) framework.
+Code for [Learning Correspondence from the Cycle-consistency of Time (CVPR 2019, Oral)](https://arxiv.org/abs/1903.07593). The code is developed based on the [PyTorch](https://pytorch.org/) framework. This repo includes the training code for learning semi-dense correspondence from unlabeled videos, and testing code for applying this correspondence on segmentation mask tracking in videos.
 
 <div align="center">
   <img src="figures/horsepano.jpg" width="700px" />
