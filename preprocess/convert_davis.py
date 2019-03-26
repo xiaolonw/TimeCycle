@@ -51,7 +51,7 @@ for i in range(len(jpglist)):
     outfolder = out_folder + fname + '/'
 
     if not os.path.exists(outfolder):
-        os.mkdir(outfolder, 0755 )
+        os.mkdir(outfolder, 0o755 )
 
     files = os.listdir(gtfolder)
 
