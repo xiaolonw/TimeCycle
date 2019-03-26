@@ -18,7 +18,7 @@ Extract the jpgs to YOUR_DATASET_FOLDER/vlog_frames_12fps/ by using:
 ```Shell
     python extract_jpegs_256.py
 ```
-Gnerate the jpg list for training:
+Gnerate the jpg list to YOUR_DATASET_FOLDER/vlog_frames_12fps.txt for training:
 ```Shell
     python genvloglist.py
 ```
@@ -31,7 +31,7 @@ Go into the folder:
 ```Shell
     cd preprocess
 ```
-Generate the list for testing as "YOUR_DATASET_FOLDER/davis/DAVIS/vallist.txt" :
+Generate the list for testing as YOUR_DATASET_FOLDER/davis/DAVIS/vallist.txt :
 ```Shell
     python gendavis_vallist.py
 ```
