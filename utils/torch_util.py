@@ -93,7 +93,7 @@ def str_to_bool(v):
     elif v.lower() in ('no', 'false', 'f', 'n', '0'):
         return False
     else:
-        raise argparse.ArgumentTypeError('Boolean value expected.')
+        raise TypeError('Boolean value expected.')
         
 def expand_dim(tensor,dim,desired_dim_len):
     sz = list(tensor.size())
