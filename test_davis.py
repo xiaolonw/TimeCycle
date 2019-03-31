@@ -105,7 +105,7 @@ parser.add_argument('--classNum', default=49, type=int,
 parser.add_argument('--lamda', default=0.1, type=float,
                     help='temperature')
 
-parser.add_argument('--pretrained_imagenet', type=str_to_bool, nargs='?', const=True, default=True,
+parser.add_argument('--pretrained_imagenet', type=str_to_bool, nargs='?', const=True, default=False,
                     help='pretrained_imagenet')
 parser.add_argument('--topk_vis', default=20, type=int,
                     help='topk_vis')

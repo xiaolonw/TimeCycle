@@ -56,6 +56,7 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
 ```Shell
     sh run_test.sh
 ```
+Note that one can easily improve the results by increasing the "cropSize" in the script.
 
 
 ## Acknowledgements
