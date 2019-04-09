@@ -27,11 +27,12 @@ If you use our code in your research or wish to refer to the baseline results, p
 
 Our trained model can be downloaded from [here](https://www.dropbox.com/s/txsj62dp9nuxs6h/checkpoint_14.pth.tar?dl=0). The tracking performance on DAVIS-2017 for this model (without training on DAVIS-2017) is:
 
-| J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
+| cropSize | J_mean | J_recall | J_decay | F_mean | F_recall | F_decay |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 320 x 320 | 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
+| 400 x 400 | 0.430 | 0.437 | 0.296 | 0.426 | 0.413 | 0.356 |
 
-The training and testing procedures for this model are described as follows.
+Note that one can easily improve the results in test time by increasing the input image size "cropSize" in the script. The training and testing procedures for this model are described as follows.
 
 ## Dataset Preparation
 
@@ -56,7 +57,6 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
 ```Shell
     sh run_test.sh
 ```
-Note that one can easily improve the results by increasing the "cropSize" in the script.
 
 
 ## Acknowledgements
