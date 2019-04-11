@@ -456,7 +456,7 @@ def test(val_loader, model, epoch, use_cuda):
             ids = np.argpartition(atten1d, -topk_vis, axis=1)[:, -topk_vis:]
             # ids = np.argsort(atten1d, axis=1)[:, -topk_vis:]
 
-            hid = ids / width_dim
+            hid = ids // width_dim
             wid = ids % width_dim
 
             vis_ids_h = wid.transpose(0, 2, 3, 1)
