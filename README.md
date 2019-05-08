@@ -34,6 +34,11 @@ Our trained model can be downloaded from [here](https://drive.google.com/file/d/
 
 Note that one can easily improve the results in test time by increasing the input image size "cropSize" in the script. The training and testing procedures for this model are described as follows.
 
+## Converting Our Model to Standard Pytorch ResNet-50
+
+Please see [`convert_model.ipynb`](convert_model.ipynb) for converting our model [here](https://drive.google.com/file/d/1jKwP6qOoEFhhr9WFL_mfXvk0IHtElsmB/view?usp=sharing) to standard Pytorch ResNet-50 model format.
+
+
 ## Dataset Preparation
 
 Please read [`DATASET.md`](DATASET.md) for downloading and preparing the VLOG dataset for training and DAVIS dataset for testing.
@@ -58,9 +63,6 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
     sh run_test.sh
 ```
 
-## Converting Our Model to Standard Pytorch ResNet-50
-
-Please see [`convert_model.ipynb`](convert_model.ipynb) for converting our model [here](https://drive.google.com/file/d/1jKwP6qOoEFhhr9WFL_mfXvk0IHtElsmB/view?usp=sharing) to standard Pytorch ResNet-50 model format. 
 
 ## Acknowledgements
 
