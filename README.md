@@ -58,6 +58,9 @@ Set up the dataset path YOUR_DATASET_FOLDER in run_test.sh . Then run the testin
     sh run_test.sh
 ```
 
+## Converting Our Model to Standard Pytorch ResNet-50
+
+Please see [`convert_model.ipynb`](convert_model.ipynb) for converting our model [here](https://drive.google.com/file/d/1jKwP6qOoEFhhr9WFL_mfXvk0IHtElsmB/view?usp=sharing) to standard Pytorch ResNet-50 model format. 
 
 ## Acknowledgements
 
