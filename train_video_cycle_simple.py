@@ -292,7 +292,8 @@ def train(train_loader, model, criterion, optimizer, epoch, use_cuda, args):
         losses = model.module.loss(*outputs)
         loss_targ_theta, loss_targ_theta_skip, loss_back_inliers = losses
 
-        loss = sum(loss_targ_theta) / len(loss_targ_theta) * args.lamda + \
+        # adjusting coefficient for stable training
+        loss = sum(loss_targ_theta) / len(loss_targ_theta) * args.lamda * 0.2 + \
             sum(loss_back_inliers) / len(loss_back_inliers) + \
             loss_targ_theta_skip[0] * args.lamda
 

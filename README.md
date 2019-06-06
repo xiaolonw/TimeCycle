@@ -31,6 +31,7 @@ Our trained model can be downloaded from [here](https://drive.google.com/file/d/
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 320 x 320 | 0.419 | 0.409 | 0.272 | 0.394 | 0.336 | 0.328 |
 | 400 x 400 | 0.430 | 0.437 | 0.296 | 0.426 | 0.413 | 0.356 |
+| 480 x 480 | 0.464 | 0.500 | 0.332 | 0.500 | 0.480 | 0.379 |
 
 Note that one can easily improve the results in test time by increasing the input image size "cropSize" in the script. The training and testing procedures for this model are described as follows.
 

@@ -344,7 +344,7 @@ class CycleTime(nn.Module):
     def loss(self, outputs, patch_feat, theta, trans_out2, trans_out3, skip_trans, skip_corrfeat_mat, corrfeat_trans_matrix2):
         # patch_feat is patch of target frame, theta is crop transform for patch
 
-        forw_trans_thetas, back_trans_thetas = outputs
+        back_trans_thetas, forw_trans_thetas = outputs
 
         loss_targ_theta = []
         loss_targ_theta_skip = []
