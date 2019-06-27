@@ -110,10 +110,12 @@ class DavisSet(data.Dataset):
 
             img = color_normalize(img, mean, std)
             imgs[i] = img
-            lblimg  = scipy.misc.imread(lbl_path)
-            lblimg  = scipy.misc.imresize( lblimg, (newh, neww), 'nearest' )
+                        
+            if os.path.isfile(lbl_path):
+                lblimg  = scipy.misc.imread(lbl_path)
+                lblimg  = scipy.misc.imresize( lblimg, (newh, neww), 'nearest' )
 
-            lbls.append(lblimg.copy())
+                lbls.append(lblimg.copy())
 
         gridx = 0
         gridy = 0
